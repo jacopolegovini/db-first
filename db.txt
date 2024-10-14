@@ -1,3 +1,14 @@
 Nome tabella: cars
 
-ID
+ID              BIGINT
+name            VARCHAR(255)
+brand           VARCHAR(255)
+category        VARCHAR(255)
+release_date    DATE    
+dimensions      FLOAT
+seats           TINYINT
+max_speed       SMALLINT
+power           SMALLINT
+weight          SMALLINT
+base_price      INT
+note            TEXT
